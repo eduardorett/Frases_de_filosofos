@@ -48,9 +48,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
             onClick(it)
         }
 
-         AlertDialog.Builder(this)
-            .setTitle("Frases dos filósofos")
-            .setMessage("Esse app te permite gerar fráses dos filosofos clicando em suas fotos, o botão geral entrega uma frase aleatoria")
+        AlertDialog.Builder(this)
+            .setTitle("Frases de filósofos")
+            .setMessage("Esse app te permite gerar frases dos filósofos clicando em suas fotos, o botão geral entrega uma frase aleatória")
             .setPositiveButton("Sim!") { _,_ ->
                 Toast.makeText(this,"Vamos começar!", Toast.LENGTH_SHORT).show()
             }.show()
@@ -72,11 +72,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
         }
     }
 
-/////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////
     fun handlenewphase() {
-      frase.text = Mock().getPhrase(mphraseFilter)
+        frase.text = Mock().getPhrase(mphraseFilter)
     }
-////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////
     fun handlephilter(id: Int) {
 
         when(id){
@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
 
 
-    }
+}
 
 
 

@@ -127,9 +127,8 @@ app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:textSize="15dp"
         android:background="@drawable/ripplebutton"
-        android:text="Frase aleatoria"
-     android:textColor="?android:attr/colorMultiSelectHighlight"
-        android:backgroundTint="@color/white"/>
+        android:text="Frase aleatÓria"
+     />
 
 
 
